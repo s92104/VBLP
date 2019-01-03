@@ -1,0 +1,36 @@
+.form{
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:lightblue;
+}
+.title
+{
+	font-size:50px;
+	margin-bottom:100px;
+}
+.texttitle
+{
+	font-size:30px;
+}
+.text
+{
+	width:500px;
+	height:40px;
+	margin-bottom:100px;
+	line-height:40px;
+	border-radius:40px;
+	background:#2f3640;
+	outline:none;
+	color:white;
+	padding:0px 20px;
+	text-align:center;
+}	
+.btn
+{
+	width:200px;
+	height:30px;
+	border-radius:40px;
+	color:#e84118;
+}

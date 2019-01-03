@@ -1,0 +1,43 @@
+body ul li a
+{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+}
+div.boardlist 
+{
+	margin:8px;
+}
+div.boardlist ul
+{
+	list-style-type:none;
+	padding:0;
+}
+div.boardlist ul li
+{
+	background:#FFFF99;
+	text-align:center;
+	padding:10px 0;
+}
+.boardlist ul li:hover
+{
+	background:#F28500;
+}
+.boardlist ul li a
+{
+	padding:10px 90px;
+}
+div.articlelist
+{
+	background:khaki ;
+	margin-left:8px;
+	margin-right:8px;
+}
+div.articlelist ul
+{
+	list-style-type:none;
+}
+div.articlelist ul li
+{
+	margin-bottom:50px;
+}

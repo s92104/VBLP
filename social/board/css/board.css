@@ -1,0 +1,64 @@
+/*主體*/
+body
+{
+	background:#E69966;
+	height:630px;
+}
+/*連結*/
+a
+{
+	text-decoration:none;
+}
+/*看板區*/
+div.sidebar
+{
+	float:left;
+	width:20%;
+	text-align:center;
+	margin-left:10px;
+}
+/*看板選單*/
+div.type
+{
+	margin:10px 0px;
+}
+div.type a
+{
+	color:black;
+	background:tan;
+	padding:10px;
+	border:1px solid black;
+}
+div.type p a:hover
+{
+	background:peru;
+}
+/*看板列表*/
+div.board
+{
+	height:500px;
+	border:none;
+	background:#FFFF99;
+}
+/*新增看板*/
+div.addboard
+{
+	background:Aquamarine;
+	border:1px solid black;
+	padding:5px 0px;
+	margin-top:20px;
+}
+div.addboard a
+{
+	color:black;
+}
+/*文章列表*/
+div.article
+{
+	float:right;
+	width:75%;
+	height:600px;
+	border:none;
+	border-radius:5px;
+	margin:20px 20px;
+}

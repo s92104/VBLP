@@ -1,0 +1,50 @@
+*
+{
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+}
+.searchall ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.searchall ul li
+{
+	margin-left:0;
+}
+.searchall ul li a
+{
+	padding:0 4px;
+	border:1px solid black;
+	margin-left:10px;
+}
+.groupblock
+{
+	clear:both;
+	border:1px solid black;
+	border-radius:10px;
+	height:100px;
+	line-height:50px;
+	background:#98FB98;
+}
+.groupblock:hover
+{
+	background:#ADFF2F;
+}
+.groupname
+{
+	float:left;
+	margin-left:10px;
+}
+.deletegroup
+{
+	float:right;
+	margin-right:10px;
+}
+.deletegroup a
+{
+	font-weight:bold;
+	color:red;
+}
