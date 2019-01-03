@@ -1,0 +1,64 @@
+/*主體*/
+body
+{
+	margin:0px;
+	background:#c4d3f6;
+}
+/*選單*/
+div.menu
+{
+	background:orange;
+	display:flex;
+	align-items:center;
+}
+div.menu  a
+{
+	color:black;
+	text-decoration:none;
+	padding:5px 20px;
+	position:relative;
+}
+div.menu  a:hover
+{
+	background:red;
+}
+div.menu  a:active
+{
+	background:lightpink;
+}
+.menu a:before,.menu a:after
+{
+	height:14px;
+	width:14px;
+	position:absolute;
+	content:'';
+	transition:all 0.35s ease;
+	opacity:0;
+}
+.menu a:before
+{
+	right:0;
+	top:0;
+	border-right:3px solid white;
+	border-top:3px solid white;
+	transform:translate(-100%,50%);
+}
+.menu a:after
+{
+	left:0;
+	bottom:0;
+	border-left:3px solid white;
+	border-bottom:3px solid white;
+	transform:translate(100%,-50%);
+}
+.menu a:hover:before,.menu a:hover:after
+{
+	transform:translate(0,0);
+	opacity:1;
+}
+/*內容*/
+div.content
+{
+	height:650px;
+}
+

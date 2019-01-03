@@ -1,0 +1,122 @@
+*
+{
+	font-size:20px;
+	text-decoration:none;
+	list-style:none;
+	color:black;
+}
+body
+{
+	margin:0;
+	background:#f6b93b;
+}
+.page
+{	
+	float:left;
+	width:984px;
+	height:650px;
+	background:url(../img/background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0.8;
+}
+.time span,#y,#mo,#d,#h,#m,#s
+{
+	color:white;
+	padding: 0 30px;
+	font-size: 30px;
+	text-align:center;
+}
+.time span div{
+  font-size: 50px;
+}
+.top
+{
+	display:flex;
+	justify-content:center;
+	position: absolute;
+	top: 10%;
+	left: 31%;
+	transform:translate(-50%,-50%);
+}
+.bottom
+{
+	display:flex;
+	justify-content:center;
+	position: absolute;
+	top: 85%;
+	left: 31%;
+	transform:translate(-50%,-50%);
+}
+.form
+{
+	float:right;
+	width:530px;
+	height:650px;
+}
+.write
+{
+	margin-top:130px;
+}
+.read
+{
+	margin-top:320px;
+}
+.write a,.read a
+{
+	transition:0.4s;
+}
+.write a,.read a
+{
+	background:white;
+	padding:20px 60px;
+}
+.write a:hover
+{
+	padding:60px 180px;
+	font-size:40px;
+}
+.read a:hover
+{
+	padding:60px 180px;
+	font-size:40px;
+}
+/*抽卡*/
+div.card
+{
+	width:398px;
+	height:435px;
+	position:absolute;
+	top:45%;
+	left:50%;
+	transform:translate(-50%,-50%)
+}
+div.card:hover > div.front
+{
+	transform:perspective(600px) rotateY(-180deg);
+}
+div.card:hover > div.back
+{
+	transform:perspective(600px) rotateY(0deg);
+}
+div.front,div.back
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	backface-visibility:hidden;
+	transition:transform .6s linear;
+}
+div.front
+{
+	transform:perspective(600px) rotateY(0deg);
+}
+div.front img
+{
+	width:100%;
+	height:100%;
+}
+div.back
+{
+	transform:perspective(600px) rotateY(180deg);
+}
