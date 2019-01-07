@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 03, 2019 at 09:09 PM
+-- Generation Time: Jan 07, 2019 at 10:20 AM
 -- Server version: 5.7.17-log
 -- PHP Version: 5.6.30
 
@@ -109,13 +109,6 @@ CREATE TABLE `group_table` (
   `name` varchar(20) NOT NULL,
   `groups` json NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `group_table`
---
-
-INSERT INTO `group_table` (`name`, `groups`) VALUES
-('123', '{\"data\": [{\"name\": \"123\", \"intro\": \"123\"}]}');
 
 -- --------------------------------------------------------
 
